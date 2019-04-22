@@ -1,8 +1,9 @@
-
-n=input("Enter the number:")
-if(n%2==0):
-  print("Even")
-elif(n%2==1):
-  print("Odd")
-else:
+num=input("Enter the number:")
+if(num.isalpha()):
   print("invalid")
+else:
+  num=int(num)
+  if(num%2==0):
+    print("Even")
+  else:
+    print("Odd")
