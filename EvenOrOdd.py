@@ -1,4 +1,4 @@
-num=input("Enter the number:")
+num=input()
 if(num.isalpha()):
   print("invalid")
 else:
