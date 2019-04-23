@@ -1,5 +1,4 @@
-#Anitha
-#Beginner 1.5
+
 import java.io.*;
 import java.util.Scanner;
 class Main {
