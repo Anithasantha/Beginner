@@ -1,0 +1,14 @@
+n=int(input())
+temp=n
+d=0
+pal=0
+while(temp!=0):
+  d=temp%10
+  temp=temp//10
+  pal=d+pal
+  if(temp!=0):
+    pal=pal*10
+if(n==pal):
+  print("yes")
+else:
+  print("no")
