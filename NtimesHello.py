@@ -1,4 +1,4 @@
-#Anitha problem 1.7
+#Anitha beginner 7
 n=int(input())
 for i in range(0,n):
-  print("Hello\n")
+  print("Hello \n")
